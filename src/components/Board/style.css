@@ -1,0 +1,18 @@
+.game {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.game__board {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  width: min-content;
+  box-shadow: 0 0.32em 2em rgba(153, 153, 153, 0.2);
+  border: 1px solid gray;
+  margin-right: 2rem;
+}

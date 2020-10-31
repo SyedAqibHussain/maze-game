@@ -1,0 +1,21 @@
+.fallback-ui {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fallback-ui__wrapper {
+  text-align: center;
+}
+
+.fallback-ui__wrapper-icon {
+  font-size: 120px;
+  color: crimson;
+}
+
+.fallback-ui__wrapper-title {
+  font-size: 16px;
+  margin: 0;
+}
